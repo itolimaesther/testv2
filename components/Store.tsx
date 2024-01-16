@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import CustomCard from "../components/CustomCard";
-import Image from "next/Image";
+import Image from "next/image";
 import ReportChart from "./ReportChart";
 
 function Store() {
