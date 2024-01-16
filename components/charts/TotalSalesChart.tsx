@@ -34,7 +34,7 @@ function TotalSalesChart() {
 				ticks: {
 					stepSize: 10,
 					max: 50,
-					// callback: function (value, index, values) {
+					// callback: function (value: any, index: any, values: any) {
 					// 	return value === 0 ? "0k" : `${value}k`;
 					// },
 				},

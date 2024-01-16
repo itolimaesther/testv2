@@ -36,7 +36,7 @@ function WeeklySummChart() {
         ticks: {
           stepSize: 25,
           max: 100,
-          callback: function (value, index, values) {
+          callback: function (value: any, index: any, values: any) {
             return value === 0 ? "0" : `${value}`;
           },
         },
