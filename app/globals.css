@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* START: General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+/* END: General styles */
+
+.custom_block{
+  width: max-content;
+}
+
+.nav_links{
+  @apply hidden h-full gap-12 lg:flex;
+  align-items: center;
+}
+
+.nav_btns{
+  @apply lg:justify-center flex gap-x-4;
+  align-items: center;
+}
+
+.right_section{
+  @apply flex items-center h-full px-6 pb-6 sm:px-12 sm:pb-12 md:w-1/2;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.btn_blue-mobile{
+  @apply block -mx-3
+}
+
+.btn_white { 
+  @apply  border-white bg-white px-8 py-3 text-green-50
+}
+.btn_white_text  { 
+  @apply  border-white bg-white px-8 py-3 text-gray-90
+}
+.btn_green  { 
+  @apply  border-green-50 bg-green-50 px-5 py-2 text-white
+}
+.btn_dark_green { 
+  @apply  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
+}
+.btn_dark_green_outline  { 
+  @apply border-gray-20 bg-green-90 px-8 py-5 text-white
+}
+
+.btn_blue{
+  @apply bg-blue-500 px-5 py-2 text-white
+}
+
+.btn_blue_outline{
+  @apply border-blue-500 bg-white text-blue-500 px-5 py-2
+}
+
+.max-container {
+  @apply mx-auto max-w-[1440px];
+}
+
+.padding-container {
+  @apply px-6 lg:px-20 3xl:px-0;
+}
+
+.flexCenter {
+  @apply flex items-center justify-center;
+}
+
+.flexBetween {
+  @apply flex items-center justify-between;
+}
+
+.flexStart {
+  @apply flex items-center justify-start;
+}
+
+.flexEnd {
+  @apply flex items-center justify-end;
+}
+
+
+/* Hero */
+.hero-map {
+  @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+}
+
+.hero-big-text {
+  @apply max-w-2xl mb-4 text-4xl font-semibold leading-10;
+  //font-size: 45px;
+  //line-height: 52px !important;
+}
+
+.btn_start{
+  @apply rounded-lg px-5 py-4
+}
+
+.btn-l-purple{
+  @apply rounded-lg px-5 py-4;
+  background-color: #C3DAFC;
+}
+
+.linear-bg{
+  background: linear-gradient(93.02deg, #0170E3 0.56%, #36B3A5 99.16%);
+}
+
+.can-help-grid{
+  @apply h-auto max-w-full rounded-[30px] p-6 bg-white border border-gray-200 dark:bg-gray-800 flex dark:border-gray-700 flex-col-reverse lg:flex items-center justify-center lg:flex-row w-full;
+}
+
+.can-help-grid1{
+  @apply bg-[#C4E8E8];
+}
+
+.can-help-grid2{
+  @apply bg-[#C3DAFC];
+}
+
+.can-help-grid3{
+  @apply bg-[#bac5e9];
+}
+
+.can-help-grid4{
+  @apply bg-[#FFD8DD];
+}
+
+.hover-text:hover p{
+  color: #000000 !important;
+}
+
+
+/* Camp */
+.camp-quote {
+  @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
+}
+
+/* Feature */
+.feature-phone {
+  @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex  3xl:left-20;
+}
+
+/* Get App */
+.get-app {
+  @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+}
+.menu_width{
+  @apply w-96;
+}
+
+.color-picker{
+  border: 0px !important;
+  box-shadow: 0px 0px 10px 10px;
+}
+
+.slick-slide > div{
+  margin: 0 20px
+}
+
+
