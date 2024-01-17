@@ -3,7 +3,7 @@ const nextConfig = {
 	images: {
 		domains: ["cdn.imagin.studio"],
 	},
-	assetPrefix: './',
+	assetPrefix: '/.',
 	output: 'export',
 };
 
