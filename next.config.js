@@ -5,6 +5,12 @@ const nextConfig = {
 	},
 	assetPrefix: '/.',
 	output: 'export',
+	exportPathMap: function () {
+		return {
+		  '/': { page: '/' },
+		  // Add other paths as needed
+		};
+	  },
 };
 
 module.exports = nextConfig;
