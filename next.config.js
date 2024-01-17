@@ -4,13 +4,8 @@ const nextConfig = {
 		domains: ["cdn.imagin.studio"],
 	},
 	assetPrefix: '/.',
-	output: 'export',
-	exportPathMap: function () {
-		return {
-		  '/': { page: '/' },
-		  // Add other paths as needed
-		};
-	  },
+	output: 'export'
+	
 };
 
 module.exports = nextConfig;
